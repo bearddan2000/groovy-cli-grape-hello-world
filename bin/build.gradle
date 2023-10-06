@@ -1,0 +1,16 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.7'
+}
+
+mainClassName = 'example.Main'
